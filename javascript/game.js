@@ -38,6 +38,8 @@ function startBtn(){
                     winScore++;
                     $('#win').text(winScore);
                     
+                      location.reload();
+                     
 
                     //add reset
 
@@ -46,7 +48,10 @@ function startBtn(){
                     alert('You lost');
                     loseScore++;
                     $('#loses').text(loseScore);
-                        
+                    
+                      location.reload();
+                      
+                   
                     //add reset
                 }
 
